@@ -77,3 +77,28 @@ Exécution du script de téléchargement
 ```
 python download_dataset.py
 ```
+
+### ETape 7 : Chargement des Données dans Cassandra
+Script load_to_cassandra.py
+
+Ce script charge le dataset téléchargé dans une table Cassandra.
+
+Path : load_to_cassandra.py
+Exécution du script de chargement
+
+```
+python load_to_cassandra.py
+```
+
+### Etape 8 : Traitement MapReduce
+Script map_reduce.py
+
+Ce script lit les données depuis Cassandra et effectue un traitement MapReduce.
+
+Path : map_reduce.py
+Exécution du script MapReduce
+```
+python map_reduce.py
+```
+
+### Screenshots : 
