@@ -103,5 +103,5 @@ python map_reduce.py
 
 ### Screenshots : 
 
-![Clef de Cassandra]("key cassandra.png")
-![Dependances.png]("dependances.png")
+![Clef de Cassandra](./key_cassandra.png)
+![Dependances](./dependances.png)
